@@ -1841,7 +1841,7 @@ jackspeak@^3.1.2:
   optionalDependencies:
     "@pkgjs/parseargs" "^0.11.0"
 
-jails-js@^6.7.0:
+jails-js@^6.8.0:
   version "6.8.0"
   resolved "https://registry.yarnpkg.com/jails-js/-/jails-js-6.8.0.tgz#255091f50a7c90f4d917e33770b8c24c486eefdc"
   integrity sha512-QkqrKagJmIdzdEcuRaUha4/8kLHZ72wOThPUTX0SXN+IpGY6R3sQljbsXCzzbwJxWOznVXRat2Ses5vTs7P2tA==
