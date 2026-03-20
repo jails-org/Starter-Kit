@@ -11,11 +11,11 @@
 		"test:integration": "NODE_ENV=local playwright test"
 	},
 	"dependencies": {
-		"@tailwindcss/vite": "^4.1.16",
-		"astro": "5.18.0",
-		"jails-js": "^6.9.6",
+		"@tailwindcss/vite": "^4.2.2",
+		"astro": "^6.0.7",
+		"jails-js": "^6.9.7",
 		"jails.stdlib": "^2.0.6",
-		"tailwindcss": "^4.2.1"
+		"tailwindcss": "^4.2.2"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.55.0",
