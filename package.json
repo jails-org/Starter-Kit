@@ -12,7 +12,7 @@
 	},
 	"dependencies": {
 		"@tailwindcss/vite": "^4.2.2",
-		"astro": "^6.0.7",
+		"astro": "^6.3.1",
 		"jails-js": "^6.9.7",
 		"jails.stdlib": "^2.0.6",
 		"tailwindcss": "^4.2.2"
