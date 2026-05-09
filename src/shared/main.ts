@@ -6,6 +6,10 @@ export const dependencies = {}
 
 register('app-main', application, dependencies)
 
-document.addEventListener('DOMContentLoaded', (e) => {
+if (document.readyState === 'loading') {
+	document.addEventListener('DOMContentLoaded', () => {
+		start()
+ 	})
+} else {
 	start()
-})
+}
