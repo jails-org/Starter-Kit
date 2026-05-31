@@ -1,8 +1,7 @@
+
 <p align="center">
-  <img height="120" alt="Screenshot 2025-09-21 at 02 44 21" src="./public/icons/jails.svg" />
+  <img width="250" alt="jails-logo" src="https://github.com/user-attachments/assets/417bad35-956c-4d1c-bd8d-a5bd2e246e9d" />
 </p>
-
-
 
 <h1 align="center">Starter Kit</h1>
 
