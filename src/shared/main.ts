@@ -5,11 +5,3 @@ export { register, start } from 'jails-js'
 export const dependencies = {}
 
 register('app-main', application, dependencies)
-
-if (document.readyState === 'loading') {
-	document.addEventListener('DOMContentLoaded', () => {
-		start()
- 	})
-} else {
-	start()
-}
