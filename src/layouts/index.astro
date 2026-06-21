@@ -14,7 +14,10 @@ import 'shared/styles/global.css'
 		/>
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<slot name="head" />
-		<script src="shared/main.ts"></script>
+		<script>
+			import { start } from 'shared/main'
+			start()
+		</script>
 	</head>
 	<body>
 		<app-main>

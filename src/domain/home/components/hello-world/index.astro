@@ -1,12 +1,10 @@
 ---
-import Icon from 'shared/components/icon/index.astro'
 ---
 
 <script>
-	import { register, start } from 'shared/main'
+	import { register } from 'shared/main'
 	import * as HelloWorld from './index'
 	register('hello-world', HelloWorld)
-	start()
 </script>
 
 <hello-world class="m-auto text-center space-y-2 font-thin">

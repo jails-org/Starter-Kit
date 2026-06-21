@@ -5,3 +5,7 @@ export { register, start } from 'jails-js'
 export const dependencies = {}
 
 register('app-main', application, dependencies)
+
+document.addEventListener("DOMContentLoaded", (event) => {
+	start()
+})
