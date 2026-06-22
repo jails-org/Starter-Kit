@@ -14,10 +14,6 @@ import 'shared/styles/global.css'
 		/>
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<slot name="head" />
-		<script>
-			import { start } from 'shared/main'
-			start()
-		</script>
 	</head>
 	<body>
 		<app-main>
@@ -25,6 +21,10 @@ import 'shared/styles/global.css'
 		</app-main>
 		<script is:inline data-name="analytics" type="text/third-party">
 			console.log('Third Party script body executed')
+		</script>
+		<script>
+			import { start } from 'shared/main'
+			start()
 		</script>
 	</body>
 </html>
