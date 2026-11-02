@@ -11,6 +11,14 @@ export default defineConfig({
 		},
 		optimizeDeps: {
 			force: true
+		},
+		build: {
+			rollupOptions: {
+				output: {
+					manualChunks: () => undefined,
+					inlineDynamicImports: false
+				}
+			}
 		}
 	},
 	devToolbar: {
